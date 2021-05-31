@@ -22,9 +22,6 @@ syntax keyword flxFunction
 " Match all MOSTflexiPL number types
 syntax match flxNumber "\v<\d+>"
 
-syntax match flxComparison "<\|<=\|=\|=/\|>=\|>"
-syntax match flxAssignment "!\|+!\|-!\|*!\|/!\|\^!\|&!\||!"
-syntax match flxArithmetic "+\|-\|*\|/\|\^\|&\||\|!\|"
 
 " Set highlights
 highlight default link flxNumber Number
@@ -33,7 +30,3 @@ highlight default link flxConditional Conditional
 highlight default link flxRepeat Repeat
 highlight default link flxKeyword Keyword
 highlight default link flxFunction Function
-
-highlight default link flxComparison Operator
-highlight default link flxAssignment Operator
-highlight default link flxArithmetic Operator
